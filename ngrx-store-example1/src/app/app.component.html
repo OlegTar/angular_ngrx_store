@@ -1,0 +1,10 @@
+<div>
+  <button (click)="increment('counter')">+</button>
+    {{ counter$ | async | json }}
+  <button (click)="decrement('counter')">-</button>
+</div>
+<div>
+  <button (click)="increment('counter2')">+</button>
+  {{ counter2$ | async }}
+  <button (click)="decrement('counter2')">-</button>
+</div>
